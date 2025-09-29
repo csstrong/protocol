@@ -40,10 +40,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author jian
- * @version 2023-04-11 13:30
- */
 @Component
 public class MessageDtuConsumer {
 

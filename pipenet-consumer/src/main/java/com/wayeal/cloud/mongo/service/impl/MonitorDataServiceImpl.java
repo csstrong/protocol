@@ -21,10 +21,6 @@ import java.util.List;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
-/*
- * @author  chensi
- * @date  2022/7/20
- */
 @Slf4j
 @Service
 public class MonitorDataServiceImpl implements MonitorDataService {

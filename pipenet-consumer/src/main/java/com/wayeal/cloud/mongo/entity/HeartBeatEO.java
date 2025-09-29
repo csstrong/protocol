@@ -8,10 +8,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-/*
- * @author  chensi
- * @date  2022/9/1
- */
 @Data
 @Builder
 @NoArgsConstructor

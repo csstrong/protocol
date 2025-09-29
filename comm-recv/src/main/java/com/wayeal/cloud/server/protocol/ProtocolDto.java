@@ -3,10 +3,6 @@ package com.wayeal.cloud.server.protocol;
 import com.wayeal.cloud.enums.ProtocolType;
 import lombok.Data;
 
-/**
- * @author jian
- * @version 2023-02-07 16:09
- */
 public class ProtocolDto {
 
     /** 分割符 */

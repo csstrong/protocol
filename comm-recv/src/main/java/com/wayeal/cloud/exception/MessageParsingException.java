@@ -1,9 +1,5 @@
 package com.wayeal.cloud.exception;
 
-/**
- * @author jian
- * @version 2023-05-29 15:46
- */
 public class MessageParsingException extends RuntimeException {
 
     public MessageParsingException() { }

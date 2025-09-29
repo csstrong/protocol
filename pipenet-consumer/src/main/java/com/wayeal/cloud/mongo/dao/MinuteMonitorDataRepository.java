@@ -6,10 +6,6 @@ import org.springframework.data.mongodb.repository.Query;
 
 import java.util.List;
 
-/*
- * @author  chensi
- * @date  2022/7/20
- */
 public interface MinuteMonitorDataRepository extends MongoRepository<MinuteMonitorData, String> {
 
     @Query("{'Id':?0,'MonitorTime':?1}")

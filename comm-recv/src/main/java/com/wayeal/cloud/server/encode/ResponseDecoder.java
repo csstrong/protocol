@@ -4,10 +4,6 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 
-/**
- * @author jian
- * @version 2023-02-17 17:05
- */
 public class ResponseDecoder extends MessageToByteEncoder {
 
     @Override

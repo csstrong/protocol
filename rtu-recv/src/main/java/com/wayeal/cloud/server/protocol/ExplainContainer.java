@@ -7,8 +7,6 @@ import java.util.List;
 
 /**
  * @des 对于要素信息进行解释
- * @author jian
- * @version 2023-02-21 13:51in
  */
 public class ExplainContainer {
     /** 因子名称 */

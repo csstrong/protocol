@@ -6,8 +6,6 @@ import com.wayeal.cloud.dto.AlarmTypeDto;
 
 /**
  * @des 井下报警
- * @author jian
- * @version 2022-08-09 14:36
  */
 public class UndergroundAlarmRule extends AbstractAlarmRule {
 

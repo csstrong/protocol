@@ -1,9 +1,5 @@
 package com.wayeal.cloud.dto;
 
-/**
- * @author jian
- * @version 2022-08-09 19:35
- */
 public class StandardDto implements Comparable<StandardDto> {
 
     private String name;

@@ -5,8 +5,6 @@ import java.util.Map;
 
 /**
  * @des 每一组要素值格式
- * @author jian
- * @version 2022-07-12 14:57
  */
 public class ElementResult {
     /**

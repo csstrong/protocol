@@ -7,10 +7,6 @@ import io.netty.buffer.ByteBuf;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2023-02-14 14:57
- */
 public class ContentManage {
 
     private ContentDecoderAbstract contentDecoderAbstract;

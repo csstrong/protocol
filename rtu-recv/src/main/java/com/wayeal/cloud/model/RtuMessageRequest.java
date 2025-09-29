@@ -1,9 +1,5 @@
 package com.wayeal.cloud.model;
 
-/**
- * @author jian
- * @version 2022-07-09 11:26
- */
 public class RtuMessageRequest extends Message {
 
     protected  MessageRequest messageRequest;

@@ -5,10 +5,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * @author jian
- * @version 2022-04-25 17:05
- */
 @Component
 public class CustomDataConfig {
 

@@ -6,6 +6,14 @@
   <artifactId>pipenet-recv</artifactId>
   <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
+
+<!--  <parent>-->
+<!--    <groupId>org.springframework.boot</groupId>-->
+<!--    <artifactId>spring-boot-starter-parent</artifactId>-->
+<!--    <version>3.3.4</version>  &lt;!&ndash; 使用最新稳定版 &ndash;&gt;-->
+<!--    <relativePath/>-->
+<!--  </parent>-->
+
   <modules>
     <module>rtu-recv</module>
     <module>dtu-recv</module>
@@ -81,7 +89,7 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-
+        <version>${spring-boot.version}</version>
         <configuration>
           <excludes>
             <exclude>

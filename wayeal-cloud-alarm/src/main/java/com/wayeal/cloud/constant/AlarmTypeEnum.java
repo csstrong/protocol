@@ -1,9 +1,5 @@
 package com.wayeal.cloud.constant;
 
-/**
- * @author jian
- * @version 2022-08-20 11:45
- */
 public enum AlarmTypeEnum {
 
     ONE_ALARM("0","一级预警"),

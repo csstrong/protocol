@@ -1,13 +1,10 @@
 package com.wayeal.cloud.model;
 
-
 import java.util.List;
 import java.util.Map;
 
 /**
  * @正文数据
- * @author jian
- * @version 2022-07-08 17:47
  */
 public class ContentMessageRequest {
 

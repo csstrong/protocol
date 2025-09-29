@@ -1,8 +1,6 @@
 package com.wayeal.cloud.command;
 /**
  * @des 命令发布
- * @author jian
- * @version 2023-02-27 9:58
  */
 public interface CommandObserver {
 

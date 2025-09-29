@@ -1,9 +1,5 @@
 package com.wayeal.cloud.model;
 
-/**
- * @author jian
- * @version 2023-02-24 13:57
- */
 public class SubData {
 
     private Object data;

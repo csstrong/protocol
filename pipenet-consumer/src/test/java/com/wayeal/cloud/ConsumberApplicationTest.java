@@ -12,10 +12,6 @@ import javax.annotation.Resource;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-/*
- * @author  chensi
- * @date  2022/8/4
- */
 @SpringBootTest
 @ComponentScan(basePackages = {"com.wayeal.cloud.mongo"})
 public class ConsumberApplicationTest {

@@ -15,10 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2022-08-17 10:48
- */
 @Repository
 public class AlarmManagementRepository {
 

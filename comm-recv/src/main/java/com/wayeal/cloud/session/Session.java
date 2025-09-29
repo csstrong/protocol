@@ -12,10 +12,6 @@ import java.net.SocketAddress;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author jian
- * @version 2023-02-08 10:54
- */
 public class Session {
 
     private static final Logger log = LoggerFactory.getLogger(Session.class);

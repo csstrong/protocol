@@ -21,8 +21,6 @@ import java.util.Map;
 
 /**
  * @ 因子管理
- * @author jian
- * @version 2022-08-09 17:00
  */
 @Repository
 @CacheConfig(cacheNames = {Constant.BASE_FACTOR_INFO})

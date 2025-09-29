@@ -15,10 +15,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2022-08-09 15:59
- */
 @Repository
 @CacheConfig(cacheNames = {Constant.BASE_SITE_INFO})
 public class SiteRepository {

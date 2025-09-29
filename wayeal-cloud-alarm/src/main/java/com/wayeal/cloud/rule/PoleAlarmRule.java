@@ -6,8 +6,6 @@ import com.wayeal.cloud.dto.AlarmTypeDto;
 
 /**
  * @des 立杆报警规则
- * @author jian
- * @version 2022-08-09 14:33
  */
 public class PoleAlarmRule extends AbstractAlarmRule {
 

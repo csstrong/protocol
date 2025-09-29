@@ -7,10 +7,6 @@ import com.wayeal.cloud.session.SessionManager;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.Channel;
 
-/**
- * @author jian
- * @version 2023-02-07 17:33
- */
 public interface ProtocolAnalysisInterface {
 
     Object read(ByteBuf byteBuf);

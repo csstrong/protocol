@@ -6,8 +6,6 @@ import com.wayeal.cloud.dto.AlarmTypeDto;
 
 /**
  * @des 管道报警
- * @author jian
- * @version 2022-08-09 14:35
  */
 public class PipelineAlarmRule extends AbstractAlarmRule {
 

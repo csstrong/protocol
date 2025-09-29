@@ -30,8 +30,6 @@ import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
 /**
- * @author jian
- * @version 2022-08-09 14:55
  * @des 数据处理
  */
 @Service

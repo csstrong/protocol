@@ -13,10 +13,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-/**
- * @author jian
- * @version 2023-02-13 14:49
- */
 public class ProtocolDecoder  extends ChannelInboundHandlerAdapter {
 
     private static final Logger log = LoggerFactory.getLogger(ProtocolDecoder.class);

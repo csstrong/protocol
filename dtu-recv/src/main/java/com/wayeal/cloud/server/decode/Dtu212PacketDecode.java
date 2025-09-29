@@ -18,10 +18,6 @@ import java.util.LinkedHashMap;
 import java.util.Locale;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2023-02-08 13:13
- */
 public class Dtu212PacketDecode extends ProtocolAnalysisAbstract {
 
     private static final Logger log = LoggerFactory.getLogger(Dtu212PacketDecode.class);

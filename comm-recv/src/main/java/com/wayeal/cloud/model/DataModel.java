@@ -2,10 +2,6 @@ package com.wayeal.cloud.model;
 
 import com.wayeal.cloud.enums.ProtocolType;
 
-/**
- * @author jian
- * @version 2023-02-15 16:09
- */
 public class DataModel {
 
     private String data;

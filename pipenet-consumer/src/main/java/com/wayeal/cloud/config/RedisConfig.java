@@ -24,10 +24,6 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.net.UnknownHostException;
 import java.util.concurrent.ThreadPoolExecutor;
 
-/*
- * @author  chensi
- * @date  2022/8/29
- */
 @Data
 @Configuration
 public class RedisConfig {

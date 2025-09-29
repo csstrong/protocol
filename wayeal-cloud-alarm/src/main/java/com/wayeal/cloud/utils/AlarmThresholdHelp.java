@@ -5,10 +5,6 @@ import com.alibaba.fastjson.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2022-08-10 14:17
- */
 public class AlarmThresholdHelp {
 
 

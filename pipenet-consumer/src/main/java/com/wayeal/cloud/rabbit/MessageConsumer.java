@@ -38,10 +38,6 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-/*
- * @author  chensi
- * @date  2022/7/26
- */
 @Component
 public class MessageConsumer {
 	public static final Logger log = LoggerFactory.getLogger(MessageConsumer.class);

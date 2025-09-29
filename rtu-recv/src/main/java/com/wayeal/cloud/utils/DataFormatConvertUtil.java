@@ -1,14 +1,9 @@
 package com.wayeal.cloud.utils;
 
-
 import java.nio.ByteBuffer;
 import java.nio.DoubleBuffer;
 import java.nio.FloatBuffer;
 
-/**
- * @author jian
- * @version 2022-07-06 9:18
- */
 public class DataFormatConvertUtil {
 
     public static byte[] intToByteArray(long res, int length) {

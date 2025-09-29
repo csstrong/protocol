@@ -11,10 +11,6 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * @author jian
- * @version 2023-02-28 10:50
- */
 public class CommandManage {
     /** session */
     private SessionManager sessionManager;

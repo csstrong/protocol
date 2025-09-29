@@ -2,10 +2,6 @@ package com.wayeal.cloud.dto;
 
 import com.wayeal.cloud.constant.FactorType;
 
-/**
- * @author jian
- * @version 2022-08-19 15:53
- */
 public class FactorDto {
 
     private FactorType factorType;

@@ -4,10 +4,6 @@ import com.wayeal.cloud.constant.AlarmModeEnum;
 import com.wayeal.cloud.constant.AlarmTypeEnum;
 import com.wayeal.cloud.dto.AlarmTypeDto;
 
-/**
- * @author jian
- * @version 2022-09-20 17:05
- */
 public class DrainageAlarmRule   extends AbstractAlarmRule{
 
     public static final String format1 = "当前%s为%s，已超过%s，%s";

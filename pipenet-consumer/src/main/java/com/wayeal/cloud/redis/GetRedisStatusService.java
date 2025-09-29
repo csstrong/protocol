@@ -8,10 +8,6 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-/**
- * @author chensi
- * @date 2023/7/24
- */
 @Service
 public class GetRedisStatusService {
 

@@ -3,11 +3,6 @@ package com.wayeal.cloud.command;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
-/**
- * @author jian
- * @version 2023-02-27 10:14
- */
 public class CommandSubjectImpl implements CommandSubject{
 
     private static final Logger log = LoggerFactory.getLogger(CommandSubjectImpl.class);

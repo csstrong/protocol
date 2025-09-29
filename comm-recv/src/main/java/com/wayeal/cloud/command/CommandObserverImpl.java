@@ -10,10 +10,6 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * @author jian
- * @version 2023-02-27 10:12
- */
 public class CommandObserverImpl implements CommandObserver {
 
     private static final Logger log = LoggerFactory.getLogger(CommandObserverImpl.class);

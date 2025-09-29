@@ -4,10 +4,6 @@ import com.wayeal.cloud.constant.AlarmTypeEnum;
 import com.wayeal.cloud.dto.AlarmTypeDto;
 import org.springframework.util.StringUtils;
 
-/**
- * @author jian
- * @version 2022-08-15 9:17
- */
 public abstract class AbstractAlarmRule implements AlarmRule {
 
     public static final String format = "当前%s为%s，已超过最大设计%s的%s，%s";

@@ -2,10 +2,6 @@ package com.wayeal.cloud.server.protocol;
 
 import com.wayeal.cloud.enums.ProtocolType;
 
-/**
- * @author jian
- * @version 2023-03-16 9:48
- */
 public  abstract class ProtocolAnalysisAbstract implements ProtocolAnalysisInterface {
 
     protected String delimiter;

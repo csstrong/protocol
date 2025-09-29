@@ -17,10 +17,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author jian
- * @version 2023-02-07 15:06
- */
 public class ProtocolWrapper {
 
     private static final Logger log = LoggerFactory.getLogger(ProtocolWrapper.class);

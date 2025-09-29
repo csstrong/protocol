@@ -4,10 +4,6 @@ import com.wayeal.cloud.mongo.entity.MonitorData;
 
 import java.util.List;
 
-/*
- * @author  chensi
- * @date  2022/7/20
- */
 public interface MonitorDataService {
     /**
      * 新增

@@ -14,8 +14,6 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 
 /**
- * @author jian
- * @version 2022-08-02 11:54
  * @des 拆包, 粘包处理
  */
 public class DelimiterFrameDecoder extends ByteToMessageDecoder {

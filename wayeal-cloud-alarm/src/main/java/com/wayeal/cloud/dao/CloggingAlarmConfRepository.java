@@ -11,10 +11,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * @author jian
- * @version 2022-10-28 15:14
- */
 @Repository
 @CacheConfig(cacheNames = {Constant.BASE_CLOGGING_ALARM_CONF})
 public class CloggingAlarmConfRepository {

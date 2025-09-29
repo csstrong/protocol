@@ -10,10 +10,6 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author jian
- * @version 2023-02-08 10:54
- */
 public class SessionManager {
 
     private static final Logger log = LoggerFactory.getLogger(SessionManager.class);

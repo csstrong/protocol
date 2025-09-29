@@ -16,10 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2022-08-09 16:29
- */
 @Repository
 @CacheConfig(cacheNames = {Constant.BASE_EQUIPMENT_INFO})
 public class EquipmentRepository {

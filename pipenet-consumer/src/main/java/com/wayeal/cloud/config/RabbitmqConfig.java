@@ -11,10 +11,7 @@ import org.springframework.core.task.TaskExecutor;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.ThreadPoolExecutor;
-/*
- * @author  chensi
- * @date  2022/9/15
- */
+
 @Configuration
 public class RabbitmqConfig {
 

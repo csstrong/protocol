@@ -2,8 +2,6 @@ package com.wayeal.cloud.model;
 
 /**
  * @des
- * @author jian
- * @version 2022-07-08 17:29
  */
 public class MessageRequest {
 

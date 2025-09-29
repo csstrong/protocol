@@ -2,10 +2,6 @@ package com.wayeal.cloud.rule;
 
 import com.wayeal.cloud.dto.AlarmTypeDto;
 
-/**
- * @author jian
- * @version 2022-08-06 17:06
- */
 public interface AlarmRule {
 
 

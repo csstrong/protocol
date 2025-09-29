@@ -3,10 +3,6 @@ package com.wayeal.cloud.mongo.status;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
-/*
- * @author  chensi
- * @date  2022/7/20
- */
 @Data
 @Component
 public class Response<T> {

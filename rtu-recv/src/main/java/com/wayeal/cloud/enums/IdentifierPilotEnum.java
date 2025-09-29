@@ -2,8 +2,6 @@ package com.wayeal.cloud.enums;
 
 /**
  * @des 标识符引导符 enum
- * @author jian
- * @version 2022-07-07 14:40
  */
 public enum IdentifierPilotEnum {
 

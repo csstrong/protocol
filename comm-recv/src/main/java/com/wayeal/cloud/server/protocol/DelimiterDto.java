@@ -2,10 +2,6 @@ package com.wayeal.cloud.server.protocol;
 
 import io.netty.buffer.ByteBuf;
 
-/**
- * @author jian
- * @version 2023-02-17 11:26
- */
 public class DelimiterDto {
 
     private  boolean save;

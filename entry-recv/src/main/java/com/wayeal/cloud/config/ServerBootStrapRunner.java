@@ -10,10 +10,6 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
-/**
- * @author jian
- * @version 2023-02-16 9:57
- */
 @Component
 public class ServerBootStrapRunner implements ApplicationRunner {
 

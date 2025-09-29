@@ -9,10 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author jian
- * @version 2023-02-28 15:03
- */
 @Configuration
 public class RabbitConfig {
 

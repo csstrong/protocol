@@ -9,12 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
-/**
- * @author jian
- * @version 2022-08-15 11:33
- * @des 水质类报警处理
- */
 public class ManageAlarmRule {
     /**
      * 告警集合

@@ -1,6 +1,5 @@
 package com.wayeal.cloud.server.decode;
 
-
 import com.wayeal.cloud.enums.MessageFrameControlEnum;
 import com.wayeal.cloud.enums.ProtocolType;
 import com.wayeal.cloud.exception.MessageParsingException;
@@ -22,11 +21,6 @@ import lombok.extern.slf4j.Slf4j;
 import java.math.BigInteger;
 import java.util.Arrays;
 
-
-/**
- * @author jian
- * @version 2022-11-23 9:15
- */
 @Slf4j
 public class RtuMessageDecoder extends ProtocolAnalysisAbstract {
 

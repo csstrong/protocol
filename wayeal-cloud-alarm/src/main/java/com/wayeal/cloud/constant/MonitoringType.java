@@ -2,8 +2,6 @@ package com.wayeal.cloud.constant;
 
 /**
  * @des    执行标准
- * @author jian
- * @version 2022-08-09 11:22
  */
 public enum MonitoringType {
 

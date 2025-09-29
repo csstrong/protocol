@@ -4,10 +4,6 @@ import com.wayeal.cloud.constant.SubsystemEnum;
 import com.wayeal.cloud.utils.silt_height_calculation.Pipeline;
 import lombok.Data;
 
-/**
- * @author jian
- * @version 2022-08-09 9:52
- */
 @Data
 public class AlarmTypeDto {
 

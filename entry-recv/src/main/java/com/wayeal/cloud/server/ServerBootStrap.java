@@ -7,12 +7,6 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-/**
- * @author jian
- * @version 2023-02-16 9:45
- */
-
-
 public class ServerBootStrap {
 
     private int port;

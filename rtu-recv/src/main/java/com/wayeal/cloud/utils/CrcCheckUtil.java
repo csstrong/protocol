@@ -2,12 +2,7 @@ package com.wayeal.cloud.utils;
 
 import java.math.BigInteger;
 
-/**
- * @author jian
- * @version 2023-08-11 9:43
- */
 public class CrcCheckUtil {
-
 
     /**
      * crc modbus 16 校验

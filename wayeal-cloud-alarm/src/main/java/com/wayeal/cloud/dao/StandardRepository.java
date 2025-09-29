@@ -17,10 +17,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2022-08-09 17:22
- */
 @Repository
 @CacheConfig(cacheNames = {Constant.BASE_STANDARD_INFO})
 public class StandardRepository {

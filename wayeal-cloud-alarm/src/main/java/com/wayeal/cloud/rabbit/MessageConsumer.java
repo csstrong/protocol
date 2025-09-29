@@ -12,10 +12,6 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-/**
- * @author jian
- * @version 2022-04-26 9:20
- */
 @Component
 public class MessageConsumer {
 

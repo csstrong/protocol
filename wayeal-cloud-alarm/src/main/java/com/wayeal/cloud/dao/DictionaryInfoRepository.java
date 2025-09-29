@@ -13,11 +13,6 @@ import org.springframework.util.StringUtils;
 
 import java.util.List;
 
-/**
- * @author jian
- * @version 2022-10-31 13:23
- */
-
 @Repository
 @CacheConfig(cacheNames = {Constant.BASE_DICTIONARY_INFO})
 public class DictionaryInfoRepository {

@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * @author jian
- * @version 2023-02-28 17:00
- */
 @Component
 @ConfigurationProperties(prefix = "protocol")
 public class ProtocolConfig {

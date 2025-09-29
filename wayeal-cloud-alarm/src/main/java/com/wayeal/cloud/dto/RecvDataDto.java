@@ -9,8 +9,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @des  事实
- * @author jian
- * @version 2022-08-09 11:10
  */
 @Data
 public class RecvDataDto {

@@ -9,10 +9,6 @@ import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
-/**
- * @author jian
- * @version 2023-02-14 14:03
- */
 public class SL651_32 implements ContentDecoderAbstract {
 
     private static final Logger log = LoggerFactory.getLogger(SL651_32.class);

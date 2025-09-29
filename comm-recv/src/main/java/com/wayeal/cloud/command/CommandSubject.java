@@ -2,8 +2,6 @@ package com.wayeal.cloud.command;
 
 /**
  * @des 命令订阅
- * @author jian
- * @version 2023-02-27 10:03
  */
 public interface CommandSubject {
 

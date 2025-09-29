@@ -20,10 +20,6 @@ import org.springframework.data.redis.serializer.*;
 
 import java.time.Duration;
 
-/**
- * @author jian
- * @version 2022-08-17 16:28
- */
 @Configuration
 public class RedisConfig extends CachingConfigurerSupport {
 

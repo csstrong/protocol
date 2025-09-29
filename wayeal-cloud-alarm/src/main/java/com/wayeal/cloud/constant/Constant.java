@@ -1,9 +1,5 @@
 package com.wayeal.cloud.constant;
 
-/**
- * @author jian
- * @version 2022-08-09 9:49
- */
 public interface Constant {
 
     String CODE="Code";

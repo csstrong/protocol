@@ -18,10 +18,6 @@ import io.netty.handler.logging.LoggingHandler;
 
 import java.util.List;
 
-/**
- * @author jian
- * @version 2023-02-13 11:25
- */
 public class TcpServerChannelInitializer extends ChannelInitializer<SocketChannel> {
 
     private SessionManager sessionManager;

@@ -4,10 +4,6 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.Map;
 
-/**
- * @author jian
- * @version 2023-01-31 9:11
- */
 @Data
 public class Dtu212Dto extends Message implements Serializable {
 

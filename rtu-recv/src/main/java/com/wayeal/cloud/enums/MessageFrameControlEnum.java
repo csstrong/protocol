@@ -1,9 +1,5 @@
 package com.wayeal.cloud.enums;
 
-/**
- * @author jian
- * @version 2022-11-23 14:21
- */
 public enum MessageFrameControlEnum {
 
     STX ("02","传输正文起始"            ,""),
