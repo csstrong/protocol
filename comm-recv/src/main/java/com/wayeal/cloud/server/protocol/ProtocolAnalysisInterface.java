@@ -1,0 +1,32 @@
+package com.wayeal.cloud.server.protocol;
+
+import com.wayeal.cloud.enums.ProtocolType;
+import com.wayeal.cloud.model.SubData;
+import com.wayeal.cloud.session.Session;
+import com.wayeal.cloud.session.SessionManager;
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.Channel;
+
+/**
+ * @author jian
+ * @version 2023-02-07 17:33
+ */
+public interface ProtocolAnalysisInterface {
+
+    Object read(ByteBuf byteBuf);
+
+    void write(Session data);
+
+    SubData subpackage (Object data, SessionManager sessionManager, Channel channel, String delimiter, ProtocolType protocolType);
+
+    void getCommand(Session session);
+
+    String getDelimiter();
+
+    void   setDelimiter(String delimiter);
+
+    ProtocolType getProtocolType();
+
+    void setProtocolType(ProtocolType protocolType);
+
+}
