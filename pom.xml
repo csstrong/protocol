@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.wayeal.cloud</groupId>
-  <artifactId>pipenet-recv</artifactId>
+  <groupId>com.datarecv.cloud</groupId>
+  <artifactId>data-recv</artifactId>
   <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -19,11 +19,11 @@
     <module>dtu-recv</module>
     <module>entry-recv</module>
     <module>comm-recv</module>
-    <module>pipenet-consumer</module>
-    <module>wayeal-cloud-alarm</module>
+    <module>data-consumer</module>
+    <module>data-alarm</module>
   </modules>
-  <name>>pipeNet-recv</name>
-  <description>pipeNet project for recv dtu or rtu data</description>
+
+  <description>project for recv dtu or rtu data</description>
 
   <properties>
     <maven.compiler.source>8</maven.compiler.source>
