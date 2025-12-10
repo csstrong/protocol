@@ -80,8 +80,9 @@ public class MessageConsumer {
 			}
 
 			channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
-			//log.info("deliveryTag = {},待消费的消息是 {}", message.getMessageProperties().getDeliveryTag(), msgData);
+			log.info("deliveryTag = {},待消费的消息是 {}", message.getMessageProperties().getDeliveryTag(), msgData);
 			//存储报文数据到数据库
+			//TODO  根据具体的业务将rabbitmq中的json格式数据解析出来并存入数据库。（mongo或者mysql）
 			processMsgToDB(msgData, message);
 		} catch (Exception e) {
 			try {
@@ -124,11 +125,11 @@ public class MessageConsumer {
 		Query query = new Query(Criteria.where("Id").is(siteId));
 		List<BaseSiteInfoEO> list1 = mongoTemplate.find(query, BaseSiteInfoEO.class);
 		List<BaseStationInfoEO> list2 = mongoTemplate.find(query, BaseStationInfoEO.class);
-		if (list1.isEmpty() && list2.isEmpty()) {
-			log.info("deliveryTag = {},The database have not site info for {}!",
-				message.getMessageProperties().getDeliveryTag(), siteId);
-			return;
-		}
+//		if (list1.isEmpty() && list2.isEmpty()) {
+//			log.info("deliveryTag = {},The database have not site info for {}!",
+//				message.getMessageProperties().getDeliveryTag(), siteId);
+//			return;
+//		}
 
 		//判断若是心跳包，存入redis,设置ttl 2min,若过期，生成一条离线报警信息。若再次产生心跳，则消警。
 		if (messageRequest.getFunctionCode().equals("2f")) {
